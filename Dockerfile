@@ -38,3 +38,6 @@ RUN cd ${SGA_DIR} && \
 
 
 ADD run /usr/local/bin/
+ADD Procfile /
+
+ENTRYPOINT ["run"]
